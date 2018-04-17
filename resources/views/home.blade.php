@@ -39,7 +39,11 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="login/google" class="button red">Sign In <i class="fa fa-google-plus"></i></a></li>
+                            @if(Auth::check())
+                                <li>{{Auth::user()->name}}</li>
+                            @else
+							    <li><a href="login/google" class="button">Sign In <i class="fa fa-google-plus"></i></a></li>
+                            @endif
 						</ul>
 					</nav>
 				</header>
