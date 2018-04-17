@@ -68,6 +68,8 @@ class LoginController extends Controller
             $u->save();
         }
         
-        return json_encode($u);        
+        Auth::login($u);
+        return redirect()->intended('/');
+        //return json_encode($u);        
     }        
 }

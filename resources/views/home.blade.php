@@ -39,7 +39,7 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="#" class="button">Sign Up</a></li>
+							<li><a href="login/google" class="button red">Sign In <i class="fa fa-google-plus"></i></a></li>
 						</ul>
 					</nav>
 				</header>
@@ -50,7 +50,7 @@
 					<p>Relive your childhood memories.</p>
 					<ul class="actions">
 						<li><a href="#" class="button special">Play Now</a></li>
-						<li><a href="#" class="button">Sign Up</a></li>
+						<li><a href="login/google" class="button">Sign Up <i class="fa fa-google-plus"></i></a></li>
 					</ul>
 				</section>
 
