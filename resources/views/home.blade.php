@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Tambo - Play and Win</title>
+		<title>Bingola - Play and Win</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="{{asset('/js/ie/html5shiv.js')}}"></script><![endif]-->
@@ -18,7 +18,7 @@
 
 			<!-- Header -->
 				<header id="header" class="alt">
-					<h1><a href="index.html">Tambo</a> - Play and Win</h1>
+					<h1><a href="index.html">Bingola</a> - Play and Win</h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
@@ -50,7 +50,7 @@
 
 			<!-- Banner -->
 				<section id="banner">
-					<h2>Tambo</h2>
+					<h2>Bingola</h2>
 					<p>Relive your childhood memories.</p>
 					<ul class="actions">
 						<li><a href="#" class="button special">Play Now</a></li>
