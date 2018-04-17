@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Socialite;
+use App\User;
 
 class LoginController extends Controller
 {
@@ -58,8 +59,15 @@ class LoginController extends Controller
         $user = Socialite::driver('google')->user();
 
         // $user->token;
-        return json_encode($user);
-    }    
-    
-    
+        
+        $u = User::where('email', $user->email)->first();
+        if(!$u) {
+            $u = new User;
+            $u->name = $user->name;
+            $u->email = $user->email;
+            $u->save();
+        }
+        
+        return json_encode($u);        
+    }        
 }
