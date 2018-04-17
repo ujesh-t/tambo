@@ -34,5 +34,11 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
+    
+    'google' => [
+        'client_id' => '1011356339992-r2jkqavvplpd62h3a1o18qn8agqeb0cl.apps.googleusercontent.com',
+        'client_secret' => 'oVAYuUNQDTr-zuLmOdF5xag1',
+        'redirect' => 'http://bingola.herokuapp.com/callback'
+    ],
 
 ];
