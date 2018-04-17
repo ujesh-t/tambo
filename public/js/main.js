@@ -6,6 +6,10 @@
 
 (function($) {
 
+// skel.layout({
+//	   conditionals: true
+//    });
+    
 	skel.breakpoints({
 		wide: '(max-width: 1680px)',
 		normal: '(max-width: 1280px)',

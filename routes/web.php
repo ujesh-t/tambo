@@ -21,3 +21,8 @@ Route::get('get-balance/{address?}', function($address = null){
     else
         return json_encode(LaraBlockIo::getBalanceInfo());
 });
+
+Route::get('/game','TambolaController@gamepage');
+Route::get('/game-feeder','TambolaController@game');
+
+Route::get('doge', 'DogeController@create');
