@@ -54,7 +54,9 @@
 					<p>Relive your childhood memories.</p>
 					<ul class="actions">
 						<li><a href="#" class="button special">Play Now</a></li>
+                        @if(!Auth::check())
 						<li><a href="login/google" class="button">Sign Up <i class="fa fa-google-plus"></i></a></li>
+                        @endif
 					</ul>
 				</section>
 
