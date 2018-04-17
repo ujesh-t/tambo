@@ -70,7 +70,7 @@ class LoginController extends Controller
         }
         
         Auth::login($u);
-        return redirect()->intended('home');
+        return redirect()->intended('/');
         //return json_encode($u);        
     }        
 }
