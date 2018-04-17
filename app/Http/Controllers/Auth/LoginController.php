@@ -58,6 +58,7 @@ class LoginController extends Controller
         $user = Socialite::driver('google')->user();
 
         // $user->token;
+        return json_encode($user);
     }    
     
     
