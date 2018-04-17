@@ -28,4 +28,4 @@ Route::get('/game-feeder','TambolaController@game');
 Route::get('doge', 'DogeController@create');
 
 Route::get('login/google', 'Auth\LoginController@redirectToProvider');
-Route::get('login/google/callback', 'Auth\LoginController@handleProviderCallback');
+Route::get('callback', 'Auth\LoginController@handleProviderCallback');
