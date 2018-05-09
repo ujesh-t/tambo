@@ -29,3 +29,5 @@ Route::get('doge', 'DogeController@create');
 
 Route::get('login/google', 'Auth\LoginController@redirectToProvider');
 Route::get('callback', 'Auth\LoginController@handleProviderCallback');
+
+Route::get('trader','AutotraderController@ytn');
